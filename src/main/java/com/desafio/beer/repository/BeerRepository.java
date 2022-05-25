@@ -7,5 +7,5 @@ import com.desafio.beer.model.Beer;
 
 @Repository
 public interface BeerRepository extends JpaRepository<Beer, Long> {
-
+	
 }
