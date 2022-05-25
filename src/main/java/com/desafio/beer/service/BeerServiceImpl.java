@@ -30,7 +30,7 @@ public class BeerServiceImpl implements BeerService {
 	public Double precoPorLitro(Long id) {
 		Beer cerveja = beerRepository.getById(id);
 		
-		double resultado = cerveja.getValor() / cerveja.getLitrosEmbalagem();
+		double resultado = cerveja.getPreco() / cerveja.getLitrosEmbalagem();
 		
 		return resultado;
 	}

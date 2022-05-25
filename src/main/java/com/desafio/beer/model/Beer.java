@@ -13,8 +13,8 @@ public class Beer {
 	private Long id;
 
 	private String nome;
-	private double valor;
-	private int litrosEmbalagem;
+	private double preco;
+	private double litrosEmbalagem;
 
 	public Long getId() {
 		return id;
@@ -32,19 +32,20 @@ public class Beer {
 		this.nome = nome;
 	}
 
-	public double getValor() {
-		return valor;
+	public double getPreco() {
+		return preco;
 	}
 
-	public void setValor(double valor) {
-		this.valor = valor;
+	public void setPreco(double preco) {
+		this.preco = preco;
 	}
 
-	public int getLitrosEmbalagem() {
+	public double getLitrosEmbalagem() {
 		return litrosEmbalagem;
 	}
 
-	public void setLitrosEmbalagem(int litrosEmbalagem) {
+	public void setLitrosEmbalagem(double litrosEmbalagem) {
 		this.litrosEmbalagem = litrosEmbalagem;
 	}
+
 }
